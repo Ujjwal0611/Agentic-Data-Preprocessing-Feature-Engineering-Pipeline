@@ -80,6 +80,13 @@ SAFE_BUILTINS: dict[str, Any] = {
     "False": False,
     "None": None,
     "__import__": _guarded_import,
+    "ValueError": ValueError,
+    "TypeError": TypeError,
+    "KeyError": KeyError,
+    "AssertionError": AssertionError,
+    "IndexError": IndexError,
+    "AttributeError": AttributeError,
+    "Exception": Exception,
 }
 
 
