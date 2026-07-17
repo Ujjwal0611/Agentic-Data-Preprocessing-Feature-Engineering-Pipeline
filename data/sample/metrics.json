@@ -1,0 +1,12 @@
+{
+  "baseline_f1_score": 0.5784,
+  "baseline_accuracy": 0.5784,
+  "n_train_rows": 816,
+  "n_test_rows": 204,
+  "n_features_used": 4,
+  "columns_dropped_by_failsafe": [
+    "employment_type",
+    "application_date",
+    "approval_date"
+  ]
+}

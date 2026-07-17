@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# uv / venv
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Project-specific: generated data (bulk) ---
+# Keep data/sample/ (committed small proof-of-work), ignore everything else
+# generated at runtime by baseline_pipeline.py / agent.py / main.py.
+data/*
+!data/sample/
+!data/sample/**
+
+# Logs
+*.log
+data/attempt_logs/
+data/error_reports/
+data/phase2_outputs/
+data/phase3_outputs/
+
+# Ollama / local model artifacts (never belong in git)
+*.gguf
